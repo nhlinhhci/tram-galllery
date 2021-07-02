@@ -8,6 +8,11 @@ import Img3 from '../../img/image2.jpeg';
 import Img4 from '../../img/image3.jpeg';
 import Img5 from '../../img/image4.jpeg';
 import Img6 from '../../img/image5.jpeg';
+import Img7 from '../../img/image6.jpeg';
+import Img8 from '../../img/image7.jpeg';
+import Img9 from '../../img/desktop.jpg';
+import Img10 from '../../img/UYEN.jpg';
+import Img11 from '../../img/Compost_Poster.jpg';
 
 export default function Gallery() {
   let data = [
@@ -34,6 +39,26 @@ export default function Gallery() {
     {
       id: 6,
       src: Img6,
+    },
+    {
+      id: 7,
+      src: Img7,
+    },
+    {
+      id: 8,
+      src: Img8,
+    },
+    {
+      id: 9,
+      src: Img9,
+    },
+    {
+      id: 10,
+      src: Img10,
+    },
+    {
+      id: 11,
+      src: Img11,
     },
   ];
 
