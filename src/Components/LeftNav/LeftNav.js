@@ -16,7 +16,7 @@ const LeftNav = () => {
       <div className='bg-white text-black flex justify-between sm:hidden'>
         {/* logo */}
         <a href='/home' className='block p-4'>
-          Hello
+          Trâm Võ Studio
         </a>
         {/* mobile menu button */}
         <button className='mobile-menu-button p-4 focus:outline-none focus:bg-green-50'>
@@ -41,8 +41,12 @@ const LeftNav = () => {
         {/* siderbar */}
         <div>
           {/* logo */}
-          <a href='/home' className='block space-x-2 px-4 pb-12'>
-            <img className='w-full h-full' src={logo} alt='' />
+          <a href='/home' className='block space-x-2 pb-12'>
+            <img
+              className='max-w-full max-h-full w-auto h-auto'
+              src={logo}
+              alt=''
+            />
           </a>
           {/* navbar */}
           <nav className='ml-10 mr-14 '>
