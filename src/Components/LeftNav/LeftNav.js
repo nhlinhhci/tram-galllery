@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
-import logo from '../../img/UYEN.jpg';
+import logo from '../../img/Site_Icon.png';
 
 const LeftNav = () => {
   useEffect(() => {
@@ -42,7 +42,7 @@ const LeftNav = () => {
         <div>
           {/* logo */}
           <a href='/home' className='block space-x-2 px-4 pb-12'>
-            <img className='w-52 h-52' src={logo} alt='' />
+            <img className='w-full h-full' src={logo} alt='' />
           </a>
           {/* navbar */}
           <nav className='ml-10 mr-14 '>
@@ -56,13 +56,13 @@ const LeftNav = () => {
               href='/about'
               className='block text-2xl py-2.5 px-4 hover:bg-green-50 rounded transition duration-200 hover:text-gray-500'
             >
-              about me
+              about
             </a>
             <a
               href='/etsy'
               className='block text-2xl py-2.5 px-4 hover:bg-green-50 rounded transition duration-200 hover:text-gray-500'
             >
-              etsy
+              shop
             </a>
             <a
               href='http://instagram.com/'
