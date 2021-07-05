@@ -15,14 +15,14 @@ const LeftNav = () => {
       {/* mobile menu bar */}
       <div className='bg-white text-black flex justify-between sm:hidden'>
         {/* logo */}
-        <a href='/' className='block p-4'>
-          Trâm Võ Studio
+        <a href='/' className='block p-4 ml-4'>
+          <img className='w-14 h-auto' src={logo} alt='' />
         </a>
         {/* mobile menu button */}
-        <button className='mobile-menu-button p-4 focus:outline-none focus:bg-green-50'>
+        <button className='bg-gray-100 block mobile-menu-button p-4 px-6 focus:outline-none focus:bg-green-50'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='h-5 w-5'
+            className='h-6 w-6'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'
@@ -37,7 +37,7 @@ const LeftNav = () => {
         </button>
       </div>
 
-      <div className='sidebar bg-white text-black-100 w-64 h-full space-y-6 px-2 py-7 absolute inset-y-0 left-0 transform -translate-x-full sm:relative sm:translate-x-0 transition duration-200 ease-in-out'>
+      <div className='sidebar bg-green-200 text-black-100 w-64 h-full space-y-6 px-2 py-7 absolute inset-y-0 left-0 transform -translate-x-full sm:relative sm:translate-x-0 transition duration-200 ease-in-out'>
         {/* siderbar */}
         <div>
           {/* logo */}
