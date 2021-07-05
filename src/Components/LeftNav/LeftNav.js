@@ -15,7 +15,7 @@ const LeftNav = () => {
       {/* mobile menu bar */}
       <div className='bg-white text-black flex justify-between sm:hidden'>
         {/* logo */}
-        <a href='/home' className='block p-4'>
+        <a href='/' className='block p-4'>
           Trâm Võ Studio
         </a>
         {/* mobile menu button */}
@@ -41,7 +41,7 @@ const LeftNav = () => {
         {/* siderbar */}
         <div>
           {/* logo */}
-          <a href='/home' className='block space-x-2 pb-12'>
+          <a href='/' className='block space-x-2 pb-12'>
             <img
               className='max-w-full max-h-full w-auto h-auto'
               src={logo}
@@ -51,7 +51,7 @@ const LeftNav = () => {
           {/* navbar */}
           <nav className='ml-10 mr-14 '>
             <a
-              href='/home'
+              href='/'
               className='block text-2xl py-2.5 px-4 hover:bg-green-50 rounded transition duration-200 hover:text-gray-500'
             >
               works
