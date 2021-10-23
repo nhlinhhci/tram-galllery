@@ -4,10 +4,10 @@
   column-count: 3;
   -webkit-column-width: 33%;
   -moz-column-width: 33%;
-  column-width: 33%;
-  padding: 1rem 1rem;
+  column-width: 31.35%;
+  padding: 2rem 3rem 2rem 4rem;
   .pics {
-    margin: 0 0 1rem 0;
+    margin: 2rem 1rem 1rem 0;
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
     cursor: pointer;
@@ -16,7 +16,13 @@
     }
   }
 }
-
+@media (max-width: 1024px) {
+  .gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
 @media (max-width: 768px) {
   .gallery {
     -webkit-column-count: 2;

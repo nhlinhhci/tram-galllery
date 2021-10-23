@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import logo from '../../img/Site_Icon.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const LeftNav = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const LeftNav = () => {
           <img className='w-14 h-auto' src={logo} alt='' />
         </a>
         {/* mobile menu button */}
-        <button className='bg-gray-100 block mobile-menu-button p-4 px-6 focus:outline-none focus:bg-green-50'>
+        <button className='bg-gray-100 block mobile-menu-button p-4 px-6 focus:outline-none focus:bg-gray-50'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-6 w-6'
@@ -37,7 +38,7 @@ const LeftNav = () => {
         </button>
       </div>
 
-      <div className='sidebar bg-green-200 text-black-100 w-64 h-full space-y-6 px-2 py-7 absolute inset-y-0 left-0 transform -translate-x-full sm:relative sm:translate-x-0 transition duration-200 ease-in-out'>
+      <div className='sidebar text-black-100 w-64 h-full space-y-6 px-2 py-7 absolute inset-y-0 left-0 transform -translate-x-full sm:relative sm:translate-x-0 transition duration-200 ease-in-out'>
         {/* siderbar */}
         <div>
           {/* logo */}
@@ -52,27 +53,42 @@ const LeftNav = () => {
           <nav className='ml-10 mr-14 '>
             <a
               href='/'
-              className='block text-2xl py-2.5 px-4 hover:bg-green-50 rounded transition duration-200 hover:text-gray-500'
+              className='block text-xl py-1.5 px-4 transition duration-200 hover:text-green-600'
             >
-              works
+              work
+            </a>
+            <a
+              href='/etsy'
+              className='block text-xl py-1.5 px-4 transition duration-200 hover:text-green-600'
+            >
+              books
+            </a>
+            <a
+              href='/etsy'
+              className='block text-xl py-1.5 px-4 transition duration-200 hover:text-green-600'
+            >
+              narratives
             </a>
             <a
               href='/about'
-              className='block text-2xl py-2.5 px-4 hover:bg-green-50 rounded transition duration-200 hover:text-gray-500'
+              className='block text-xl py-1.5 px-4 transition duration-200 hover:text-green-600'
             >
               about
             </a>
             <a
               href='/etsy'
-              className='block text-2xl py-2.5 px-4 hover:bg-green-50 rounded transition duration-200 hover:text-gray-500'
+              className='block text-xl py-1.5 px-4 transition duration-200 hover:text-green-600'
             >
               shop
             </a>
             <a
               href='http://instagram.com/'
-              className='block text-2xl py-2.5 px-4 hover:bg-green-50 rounded transition duration-200 hover:text-gray-500'
+              className='block text-xl py-1.5 px-4 transition duration-200 hover:text-green-600'
             >
-              instagram
+              <FontAwesomeIcon icon='check-square' />
+              <FontAwesomeIcon icon={['fab', 'apple']} />
+              <FontAwesomeIcon icon={['fab', 'microsoft']} />
+              <FontAwesomeIcon icon={['fab', 'google']} />
             </a>
           </nav>
         </div>
